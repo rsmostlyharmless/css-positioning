@@ -1,16 +1,29 @@
 .parent {
     background-color: aqua;
-    
+    position: relative;
+    height: 250vh;
+    text-align: center;
+}
+
+.child {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
 }
 
 .child-one {
     background-color: blueviolet;
+    position: absolute;
 }
 
 .child-two {
     background-color: chartreuse;
+    position: fixed;
 }
 
 .child-three {
     background-color: darkolivegreen;
+    position: sticky;
+    top: 30px;
 }
